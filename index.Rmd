@@ -1,0 +1,68 @@
+--- 
+title: "Nature hacks for life"
+author: "cjlortie"
+date: ""
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+description: "A gentle introduction to nature hacks for a better life."
+---
+
+# Sustainability  
+
+![](./tree.png){width=4in}  
+This is the prework before we meet.
+
+
+### Context {-}  
+
+Nature deficit disorder
+
+Reciprocal restoration
+
+Sustainability and feedback loops
+
+### Learning outcomes {-}   
+1. Build a tidy, logical data model for a graduate-level dataset.  
+2. Develop a reproducible data and statistical workflow.  
+3. Design and complete intermediate-level data visualizations appropriate for a graduate-level tidy dataset.  
+4. Identify a range of suitable univariate or multivariate statistical approaches that can be applied to any dataset.  
+5.  Interpret statistical output to quantify statistical model performance.  
+6.  Complete fundamental exploratory data analysis on a representative dataset.  
+7. Appreciate the strengths and limitations of open science, data science, and evidence-based collaboration models.  
+
+### Schedule {-} 
+Slide decks are optional. The decks simply highlight some of the connections between the criteria for critical thinking and statistical heuristics.  
+
+```{r, warning=FALSE, message=FALSE, echo=FALSE}
+library(tidyverse)
+schedule <- read_csv("./schedule.csv")
+knitr::kable(schedule, booktabs = TRUE)
+
+```
+
+### Citation {-}  
+Lortie, CJ (2021): A primer for biostatistics in R. figshare. Book. https://doi.org/10.6084/m9.figshare.15048597.v2 
+
+### License {-}  
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.  
+
+### Challenge time {-}  
+Do the footprint quiz.   
+
+
+### Reflection questions {-}  
+1. What can a t-test do? Can you imagine other functions for a t-test in the context of your work and life?
+2. What are the limitations of a t-test?
+3. Is the data structure wide, long, and how can you consider tidying this evidence? Are there variables that represent the same concept?  
+
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```

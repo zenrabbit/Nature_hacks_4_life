@@ -1,0 +1,27 @@
+# Nature hacks {#hacks}  
+
+![](./hacker.png){width=3in}   
+
+Many approaches and critical thinking heuristics in ecology & evolutionary biology (eeb) are relevant to other disciplines.  
+
+### Context {-}  
+
+
+
+### Learning outcomes {-}  
+
+1. Develop your data viz skills.  
+2. Hone your critical thinking statistically by iterative plotting-modeling a dataset.   
+3. Do a regression analysis.  
+
+
+
+### Challenge time {-}  
+
+
+
+### Reflection questions {-}  
+
+1. When do you use regression versus correlation?  
+2. How could you incorporate time into your plots or statistical models?  
+3. Did the visualization highlight some of the criteria associated with critical thinking statistically more than others?  

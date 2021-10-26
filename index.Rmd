@@ -41,7 +41,7 @@ knitr::kable(schedule, booktabs = TRUE)
 ```
 
 ### Citation {-}  
-Lortie, CJ (2021): Nature hack for life. figshare. Book. 
+Lortie, CJ (2021): Nature hacks for life. figshare. Book. https://doi.org/10.6084/m9.figshare.16879312.v1  
 
 ### License {-}  
 
